@@ -1235,6 +1235,16 @@ const options = mkOptions({
                 scrollUp: opt(''),
                 scrollDown: opt(''),
             },
+            custom: {
+                icon: opt(''),
+                label: opt(true),
+                round: opt(true),
+                pollingInterval: opt(2000),
+                pollingCommand: opt(''),
+                leftClick: opt(''),
+                rightClick: opt(''),
+                middleClick: opt(''),
+            },
         },
     },
 
